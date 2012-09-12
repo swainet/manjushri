@@ -1,0 +1,16 @@
+{
+  "name": "wap-build",
+  "version": "1.0.0",
+  "root": "manjushri",
+  "description": "spm打包wap脚本",
+  "author": "daxia.shidx<danxia.shidx@alipay.com>",
+  "dependencies": {
+    "$": "#jquery/1.7.2/jquery",
+    "widget": "1.0.0",
+    "overlay": "0.9.9"
+  },
+  "tests": ["wap-build"],
+  "output": {
+    "main.js": "*"
+  }
+}
